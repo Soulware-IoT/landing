@@ -1,0 +1,143 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 16px 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #1a1a24;
+    font-weight: 700;
+    font-size: 20px;
+    gap: 12px;
+}
+
+.nav {
+    align-items: center;
+}
+
+#nav-menu {
+    display: flex;
+}
+
+#desktop-nav {
+    display: none;
+}
+
+#hamburger-menu {
+    background: #000;
+    color: #fff;
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#hamburger-menu:hover {
+    background: #333;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.dropdown-content a {
+    color: #1a1a24;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+}
+
+.dropdown-content a:hover {
+    background-color: #f8f9fa;
+}
+
+.dropdown-content.show {
+    display: block;
+}
+
+.lang-toggle {
+    background: transparent;
+    border: 1px solid #e2e8f0;
+    color: #64748b;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.2s ease;
+}
+
+.lang-toggle:hover {
+    background-color: #f8f9fa;
+    color: #1a1a24;
+    border-color: #cbd5e1;
+}
+
+.mobile-lang-btn {
+    width: calc(100% - 32px);
+    margin: 12px 16px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    #mobile-nav {
+        display: none;
+    }
+
+    #desktop-nav {
+        display: flex;
+        gap: 32px;
+        align-items: stretch;
+    }
+
+    .nav {
+        flex: 1;
+        justify-content: center;
+        align-self: stretch;
+    }
+
+    .nav-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #64748b;
+        font-weight: 500;
+        font-size: 15px;
+        border-bottom: 2px solid transparent;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .nav-link:hover {
+        color: #1a1a24;
+    }
+
+    .nav-link.active {
+        color: #1a1a24;
+        font-weight: 600;
+        border-bottom-color: #1a1a24;
+    }
+}

@@ -5,12 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="nav/styles.css">
+    <link rel="stylesheet" href="hero/styles.css">
 </head>
 
 <body>
     <div id="main-container">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">
+                <img src="./assets/icon.svg" alt="Cocina360" width="40" height="40">
+                <span>Cocina360</span>
+            </a>
+            <div id="nav-menu" class="nav">
+                <div id="desktop-nav" class="desktop-only nav">
+                    <a href="#" class="nav-link" data-i18n="nav.monitoring">Monitoring</a>
+                </div>
+                <button class="lang-toggle desktop-only" data-i18n="nav.lang_toggle">🌐 ES</button>
+                <div id="mobile-nav">
+                    <button id="hamburger-menu" aria-label="Menu">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+                    </button>
+                    <div id="dropdown-menu" class="dropdown-content">
+                        <a href="#" data-i18n="nav.monitoring">Monitoring</a>
+                        <button class="lang-toggle mobile-lang-btn" data-i18n="nav.lang_toggle">🌐 ES</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
         <div id="hero">
             <div id="cta">
                 <h1 data-i18n="hero.title">Preventing Catastrophes Before They Start.</h1>
@@ -83,7 +110,6 @@
                 </div>
             </div>
         </div>
-
     </div>
     <script type="module" src="main.js"></script>
 </body>
