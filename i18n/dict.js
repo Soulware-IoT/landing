@@ -1,5 +1,6 @@
 export const translations = {
     en: {
+        'nav.lang_toggle': '🇺🇸 EN',
         'nav.monitoring': 'Monitoring',
         'hero.title': 'Preventing Catastrophes Before They Start.',
         'hero.description': 'Cocina360 streamlines your operations through digitalized internal controls and an integrated IoT network built for proactive risk management and rapid incident response.',
@@ -14,6 +15,7 @@ export const translations = {
         'status.badge.review': 'REVIEW'
     },
     es: {
+        'nav.lang_toggle': '🇵🇪 ES',
         'nav.monitoring': 'Monitoreo',
         'hero.title': 'Detén los incendios antes de que comiencen.',
         'hero.description': 'Cocina360 empodera tu emprendimiento mediante herramientas de digitalización de procesos de control interno y un sistema integrado de dispositivos inteligentes para prevenir y responder ante incidentes críticos.',
