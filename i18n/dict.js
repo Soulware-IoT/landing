@@ -2,6 +2,7 @@ export const translations = {
     en: {
         'nav.lang_toggle': '🇺🇸 EN',
         'nav.monitoring': 'Monitoring',
+        'nav.sensors': 'Sensors',
         'hero.title': 'Preventing Catastrophes Before They Start.',
         'hero.description': 'Cocina360 streamlines your operations through digitalized internal controls and an integrated IoT network built for proactive risk management and rapid incident response.',
         'hero.btn.primary': 'Get Started',
@@ -12,11 +13,22 @@ export const translations = {
         'status.heat_anomaly.label': 'Heat Anomaly',
         'status.heat_anomaly.value': 'Grill Station',
         'status.badge.optimal': 'OPTIMAL',
-        'status.badge.review': 'REVIEW'
+        'status.badge.review': 'REVIEW',
+        'sensors.title': 'A Nervous System for your Kitchen',
+        'sensors.desc': 'Integrate a network of accurate sensors into the system, enabling full control and inmediate response from anywhere, at any time.',
+        'sensors.feature1.title': 'Smart Monitoring',
+        'sensors.feature1.desc': 'Continuous telemetry data logged and analyzed for predictive maintenance.',
+        'sensors.feature2.title': 'Heat & Smoke Sensors',
+        'sensors.feature2.desc': 'Accurate environmental sensors designed to detect the smallest anomalies in real-time.',
+        'sensors.feature3.title': 'Quick Response',
+        'sensors.feature3.desc': 'Sub-second notification delivery to mobile and central management consoles.',
+        'sensors.feature4.title': 'Battery Backup',
+        'sensors.feature4.desc': 'Built-in power reserve to keep your network active even during power outages.'
     },
     es: {
         'nav.lang_toggle': '🇵🇪 ES',
         'nav.monitoring': 'Monitoreo',
+        'nav.sensors': 'Sensores',
         'hero.title': 'Detén los incendios antes de que comiencen.',
         'hero.description': 'Cocina360 empodera tu emprendimiento mediante herramientas de digitalización de procesos de control interno y un sistema integrado de dispositivos inteligentes para prevenir y responder ante incidentes críticos.',
         'hero.btn.primary': 'Comenzar',
@@ -27,6 +39,16 @@ export const translations = {
         'status.heat_anomaly.label': 'Anomalía Térmica',
         'status.heat_anomaly.value': 'Estación de Parrilla',
         'status.badge.optimal': 'ÓPTIMO',
-        'status.badge.review': 'REVISAR'
+        'status.badge.review': 'REVISAR',
+        'sensors.title': 'Un Sistema Nervioso para tu Cocina',
+        'sensors.desc': 'Integra al sistema una red de sensores inteligentes, haciendo posible un control integral y capacidad de respuesta inmediata en cualquier momento, estés donde estés.',
+        'sensors.feature1.title': 'Monitoreo Inteligente',
+        'sensors.feature1.desc': 'Telemetría continua analizada y registrada para permitir un mantenimiento predictivo.',
+        'sensors.feature2.title': 'Sensores de Humo y Calor',
+        'sensors.feature2.desc': 'Sensores ambientales precisos diseñados para detectar las más pequeñas anomalías en tiempo real.',
+        'sensors.feature3.title': 'Respuesta Rápida',
+        'sensors.feature3.desc': 'Notificaciones en menos de un segundo enviadas a consolas móviles y paneles de gestión central.',
+        'sensors.feature4.title': 'Batería de Respaldo',
+        'sensors.feature4.desc': 'Reserva de energía integrada para mantener su red activa incluso durante cortes de energía.'
     }
 };

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="nav/styles.css">
     <link rel="stylesheet" href="hero/styles.css">
+    <link rel="stylesheet" href="sensors/styles.css">
 </head>
 
 <body>
@@ -20,6 +21,7 @@
             <div id="nav-menu" class="nav">
                 <div id="desktop-nav" class="desktop-only nav">
                     <a href="#" class="nav-link" data-i18n="nav.monitoring">Monitoring</a>
+                    <a href="#sensors" class="nav-link" data-i18n="nav.sensors">a</a>
                 </div>
                 <button class="lang-toggle desktop-only" data-i18n="nav.lang_toggle">🌐 ES</button>
                 <div id="mobile-nav">
@@ -33,6 +35,7 @@
                     </button>
                     <div id="dropdown-menu" class="dropdown-content">
                         <a href="#" data-i18n="nav.monitoring">Monitoring</a>
+                        <a href="#sensors" class="nav-link" data-i18n="nav.sensors"></a>
                         <button class="lang-toggle mobile-lang-btn" data-i18n="nav.lang_toggle">🌐 ES</button>
                     </div>
                 </div>
@@ -106,6 +109,69 @@
                             <span class="item-value" data-i18n="status.heat_anomaly.value">Grill Station 2</span>
                         </div>
                         <div class="item-badge alert-badge" data-i18n="status.badge.review">REVIEW</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sensors">
+            <div id="sensors-side-image" class="half-section">
+                <img src="./assets/sensors_squared.jpeg">
+            </div>
+            <div class="half-section">
+                <div>
+                    <h1 data-i18n="sensors.title">A Nervous System for your Kitchen</h1>
+                    <p data-i18n="sensors.desc">Integrate a network of accurate sensors into the system, enabling full
+                        control and inmediate response from anywhere, at any time.</p>
+                </div>
+                <img id="sensors-bottom-image" src="./assets/sensors_wide.jpeg">
+                <div id="alarm-features">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1f2937"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                            </svg>
+                        </div>
+                        <h3 data-i18n="sensors.feature1.title">Smart Monitoring</h3>
+                        <p data-i18n="sensors.feature1.desc">Continuous telemetry data logged and analyzed for
+                            predictive
+                            maintenance.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C81E1E"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 data-i18n="sensors.feature2.title">Heat & Smoke Sensors</h3>
+                        <p data-i18n="sensors.feature2.desc">Accurate environmental sensors designed to detect the
+                            smallest anomalies in real-time.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1f2937"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                            </svg>
+                        </div>
+                        <h3 data-i18n="sensors.feature3.title">Quick Response</h3>
+                        <p data-i18n="sensors.feature3.desc">Sub-second notification delivery to mobile and central
+                            management consoles.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1f2937"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="7" width="16" height="10" rx="2" ry="2"></rect>
+                                <line x1="22" y1="11" x2="22" y2="13"></line>
+                            </svg>
+                        </div>
+                        <h3 data-i18n="sensors.feature4.title">Battery Backup</h3>
+                        <p data-i18n="sensors.feature4.desc">Built-in power reserve to keep your network active even
+                            during power outages.</p>
                     </div>
                 </div>
             </div>

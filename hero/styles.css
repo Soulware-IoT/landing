@@ -89,9 +89,20 @@
 }
 
 @keyframes pulse-icon {
-    0% { opacity: 1; transform: scale(1); }
-    50% { opacity: 0.4; transform: scale(1.1); }
-    100% { opacity: 1; transform: scale(1); }
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.4;
+        transform: scale(1.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 .status-item {
@@ -107,7 +118,7 @@
 
 .status-item:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .status-item:last-child {
@@ -140,7 +151,8 @@
     margin-bottom: 4px;
 }
 
-.status-item.alert .item-label, .status-item.alert .item-value {
+.status-item.alert .item-label,
+.status-item.alert .item-value {
     color: #C81E1E;
 }
 
