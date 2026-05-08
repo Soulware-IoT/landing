@@ -1,0 +1,58 @@
+#buy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #0E3B63;
+    color: #ffffff;
+    padding: 6rem 5%;
+}
+
+#buy .buy-icon {
+    margin-bottom: 1.5rem;
+    color: #9ca3af;
+}
+
+#buy h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0 0 1.5rem 0;
+    color: #ffffff;
+}
+
+#buy p {
+    font-size: 1.125rem;
+    color: #9ca3af;
+    max-width: 600px;
+    margin: 0 0 3rem 0;
+    line-height: 1.6;
+}
+
+#buy .buy-button {
+    background-color: #ffffff;
+    color: #111827;
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2px;
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 1024px) {
+    #buy {
+        padding: 8rem 10%;
+    }
+
+    #buy h2 {
+        font-size: 3rem;
+    }
+
+    #buy p {
+        font-size: 1.25rem;
+    }
+}

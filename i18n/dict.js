@@ -43,7 +43,11 @@ export const translations = {
         'processes.step3.title': '3. Fill & Execute',
         'processes.step3.desc': 'Employees complete their assigned control processes using simple, intuitive forms.',
         'processes.step4.title': '4. Monitor & Review',
-        'processes.step4.desc': 'Track progress and review the submitted information for quality assurance.'
+        'processes.step4.desc': 'Track progress and review the submitted information for quality assurance.',
+        'nav.buy': 'Buy',
+        'buy.title': 'Secure Your Kitchen Today.',
+        'buy.desc': 'Deploy industrial-grade vigilance. Contact our engineering team to design a custom sensor topology for your facility.',
+        'buy.button': 'Product Not Available Yet'
     },
     es: {
         'nav.lang_toggle': '🇵🇪 ES',
@@ -89,6 +93,10 @@ export const translations = {
         'processes.step3.title': '3. Ejecutar y Llenar',
         'processes.step3.desc': 'Los empleados completan sus procesos asignados mediante formularios simples e intuitivos.',
         'processes.step4.title': '4. Monitorear y Revisar',
-        'processes.step4.desc': 'Monitoree el progreso y revise la información enviada para garantizar la calidad.'
+        'processes.step4.desc': 'Monitoree el progreso y revise la información enviada para garantizar la calidad.',
+        'nav.buy': 'Comprar',
+        'buy.title': 'Asegura tu Cocina Hoy.',
+        'buy.desc': 'Implementa vigilancia de grado industrial. Contacta a nuestro equipo de ingeniería para diseñar una topología de sensores personalizada para tus instalaciones.',
+        'buy.button': 'Producto No Disponible Aún'
     }
 };
