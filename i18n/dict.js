@@ -32,7 +32,18 @@ export const translations = {
         'actuators.feature2.title': 'Turbine Activation',
         'actuators.feature2.desc': 'Automatic activation of ventilation systems to clear smoke and heat.',
         'actuators.feature3.title': 'Call to Fire Department',
-        'actuators.feature3.desc': 'Direct emergency dispatch when critical thresholds are met.'
+        'actuators.feature3.desc': 'Direct emergency dispatch when critical thresholds are met.',
+        'nav.processes': 'Processes',
+        'processes.title': 'Digitalized Internal Controls',
+        'processes.desc': 'Streamline your operational workflows with our easy-to-use digital formats and assignment tools.',
+        'processes.step1.title': '1. Create Formats',
+        'processes.step1.desc': 'Design process and registry formats effortlessly using intuitive column-row tables.',
+        'processes.step2.title': '2. Assign Responsibility',
+        'processes.step2.desc': 'Delegate tasks by assigning specific formats to designated employees.',
+        'processes.step3.title': '3. Fill & Execute',
+        'processes.step3.desc': 'Employees complete their assigned control processes using simple, intuitive forms.',
+        'processes.step4.title': '4. Monitor & Review',
+        'processes.step4.desc': 'Track progress and review the submitted information for quality assurance.'
     },
     es: {
         'nav.lang_toggle': '🇵🇪 ES',
@@ -67,6 +78,17 @@ export const translations = {
         'actuators.feature2.title': 'Activación de Turbinas',
         'actuators.feature2.desc': 'Activación automática de sistemas de ventilación para despejar humo y calor.',
         'actuators.feature3.title': 'Llamada a Bomberos',
-        'actuators.feature3.desc': 'Aviso directo a emergencias cuando se alcanzan umbrales críticos.'
+        'actuators.feature3.desc': 'Aviso directo a emergencias cuando se alcanzan umbrales críticos.',
+        'nav.processes': 'Procesos',
+        'processes.title': 'Controles Internos Digitalizados',
+        'processes.desc': 'Optimice sus flujos operativos con nuestros formatos digitales fáciles de usar.',
+        'processes.step1.title': '1. Crear Formatos',
+        'processes.step1.desc': 'Diseñe formatos de procesos y registros sin esfuerzo usando tablas intuitivas de filas y columnas.',
+        'processes.step2.title': '2. Asignar Responsabilidad',
+        'processes.step2.desc': 'Delegue tareas asignando formatos específicos a los empleados designados.',
+        'processes.step3.title': '3. Ejecutar y Llenar',
+        'processes.step3.desc': 'Los empleados completan sus procesos asignados mediante formularios simples e intuitivos.',
+        'processes.step4.title': '4. Monitorear y Revisar',
+        'processes.step4.desc': 'Monitoree el progreso y revise la información enviada para garantizar la calidad.'
     }
 };
