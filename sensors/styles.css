@@ -1,0 +1,123 @@
+#sensors {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 5%;
+    min-height: 100vh;
+}
+
+#sensors-side-image {
+    display: none;
+}
+
+.half-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.half-section>div:first-of-type {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.half-section>div:first-of-type h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111827;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.half-section>div:first-of-type p {
+    font-size: 1.125rem;
+    color: #4b5563;
+    line-height: 1.6;
+    margin: 0;
+}
+
+#sensors-bottom-image {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+#alarm-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.feature-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.feature-card .feature-icon {
+    display: flex;
+    align-items: center;
+}
+
+.feature-card h3 {
+    margin: 0;
+    font-size: 1.125rem;
+    color: #111827;
+}
+
+.feature-card p {
+    margin: 0;
+    color: #4b5563;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+@media screen and (min-width: 1024px) {
+    #sensors {
+        flex-direction: row;
+        gap: 4rem;
+        align-items: stretch;
+        padding: 2.5%;
+    }
+
+    .half-section>div:first-of-type {
+        gap: 1.5rem;
+    }
+
+    .half-section>div:first-of-type h1 {
+        font-size: 2.5rem;
+    }
+
+    .half-section>div:first-of-type p {
+        font-size: 1.125rem;
+    }
+
+    #sensors-bottom-image {
+        display: none;
+    }
+
+    #sensors-side-image {
+        display: flex;
+    }
+
+    #sensors-side-image img {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+
+    #alarm-features {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
