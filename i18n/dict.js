@@ -47,7 +47,11 @@ export const translations = {
         'nav.buy': 'Buy',
         'buy.title': 'Secure Your Kitchen Today.',
         'buy.desc': 'Deploy industrial-grade vigilance. Contact our engineering team to design a custom sensor topology for your facility.',
-        'buy.button': 'Product Not Available Yet'
+        'buy.button': 'Product Not Available Yet',
+        'footer.copyright': '© 2026 SOULWARE.',
+        'footer.about': 'ABOUT',
+        'footer.terms': 'Terms of Use',
+        'footer.privacy': 'Privacy Policy'
     },
     es: {
         'nav.lang_toggle': '🇵🇪 ES',
@@ -97,6 +101,10 @@ export const translations = {
         'nav.buy': 'Comprar',
         'buy.title': 'Asegura tu Cocina Hoy.',
         'buy.desc': 'Implementa vigilancia de grado industrial. Contacta a nuestro equipo de ingeniería para diseñar una topología de sensores personalizada para tus instalaciones.',
-        'buy.button': 'Producto No Disponible Aún'
+        'buy.button': 'Producto No Disponible Aún',
+        'footer.copyright': '© 2026 SOULWARE.',
+        'footer.about': 'Acerca de',
+        'footer.terms': 'Términos de Uso',
+        'footer.privacy': 'Política de Privacidad'
     }
 };
