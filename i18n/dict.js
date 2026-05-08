@@ -23,7 +23,16 @@ export const translations = {
         'sensors.feature3.title': 'Quick Response',
         'sensors.feature3.desc': 'Sub-second notification delivery to mobile and central management consoles.',
         'sensors.feature4.title': 'Battery Backup',
-        'sensors.feature4.desc': 'Built-in power reserve to keep your network active even during power outages.'
+        'sensors.feature4.desc': 'Built-in power reserve to keep your network active even during power outages.',
+        'nav.actuators': 'Actuators',
+        'actuators.title': 'Automated Actions',
+        'actuators.desc': 'Instantly trigger physical responses to mitigate risks without human intervention.',
+        'actuators.feature1.title': 'Alarms',
+        'actuators.feature1.desc': 'Immediate visual and auditory alerts to warn staff.',
+        'actuators.feature2.title': 'Turbine Activation',
+        'actuators.feature2.desc': 'Automatic activation of ventilation systems to clear smoke and heat.',
+        'actuators.feature3.title': 'Call to Fire Department',
+        'actuators.feature3.desc': 'Direct emergency dispatch when critical thresholds are met.'
     },
     es: {
         'nav.lang_toggle': '🇵🇪 ES',
@@ -49,6 +58,15 @@ export const translations = {
         'sensors.feature3.title': 'Respuesta Rápida',
         'sensors.feature3.desc': 'Notificaciones en menos de un segundo enviadas a consolas móviles y paneles de gestión central.',
         'sensors.feature4.title': 'Batería de Respaldo',
-        'sensors.feature4.desc': 'Reserva de energía integrada para mantener su red activa incluso durante cortes de energía.'
+        'sensors.feature4.desc': 'Reserva de energía integrada para mantener su red activa incluso durante cortes de energía.',
+        'nav.actuators': 'Actuadores',
+        'actuators.title': 'Acciones Automatizadas',
+        'actuators.desc': 'Activa respuestas físicas al instante para mitigar riesgos sin intervención humana.',
+        'actuators.feature1.title': 'Alarmas',
+        'actuators.feature1.desc': 'Alertas visuales y auditivas inmediatas para advertir al personal.',
+        'actuators.feature2.title': 'Activación de Turbinas',
+        'actuators.feature2.desc': 'Activación automática de sistemas de ventilación para despejar humo y calor.',
+        'actuators.feature3.title': 'Llamada a Bomberos',
+        'actuators.feature3.desc': 'Aviso directo a emergencias cuando se alcanzan umbrales críticos.'
     }
 };
