@@ -12,4 +12,14 @@ export function initNav() {
             }
         });
     }
+
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+        link.addEventListener('click', (e) => {
+            const target = document.querySelector(link.getAttribute('href'));
+            if (!target) return;
+            e.preventDefault();
+            dropdownMenu?.classList.remove('show');
+            target.scrollIntoView({ behavior: 'smooth' });
+        });
+    });
 }
