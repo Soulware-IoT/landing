@@ -1,10 +1,11 @@
 import { translations } from './dict.js';
 
-let currentLanguage = 'en';
+let currentLanguage = localStorage.getItem('lang') || 'en';
 
 function setLanguage(lang) {
     if (translations[lang]) {
         currentLanguage = lang;
+        localStorage.setItem('lang', lang);
         applyTranslations();
     } else {
         console.warn(`Language ${lang} is not supported.`);
@@ -12,26 +13,23 @@ function setLanguage(lang) {
 }
 
 function getTranslationFor(key) {
-    return translations[currentLanguage][key];
-}
-
-function existsTranslationFor(key) {
-    return translations[currentLanguage] && getTranslationFor(key);
+    return translations[currentLanguage]?.[key];
 }
 
 export function applyTranslations() {
-    const elements = document.querySelectorAll('[data-i18n]');
-    elements.forEach(element => {
-        const key = element.getAttribute('data-i18n');
-        if (existsTranslationFor(key)) {
-            element.textContent = getTranslationFor(key);
-        }
+    document.documentElement.lang = currentLanguage;
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const val = getTranslationFor(el.getAttribute('data-i18n'));
+        if (val != null) el.textContent = val;
+    });
+    document.querySelectorAll('[data-i18n-html]').forEach(el => {
+        const val = getTranslationFor(el.getAttribute('data-i18n-html'));
+        if (val != null) el.innerHTML = val;
     });
 }
 
 export function toggleLanguage(button) {
     button.addEventListener('click', () => {
-        const newLang = currentLanguage === 'en' ? 'es' : 'en';
-        setLanguage(newLang);
+        setLanguage(currentLanguage === 'en' ? 'es' : 'en');
     });
 }
