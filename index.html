@@ -23,33 +23,26 @@
                 <img src="./assets/icon.svg" alt="Cocina360" width="40" height="40">
                 <span>Cocina360</span>
             </a>
-            <div id="nav-menu" class="nav">
-                <div id="desktop-nav" class="desktop-only nav">
-                    <a href="#hero" class="nav-link" data-i18n="nav.monitoring">Monitoring</a>
-                    <a href="#sensors" class="nav-link" data-i18n="nav.sensors">a</a>
-                    <a href="#actuators" class="nav-link" data-i18n="nav.actuators">Actuators</a>
-                    <a href="#processes" class="nav-link" data-i18n="nav.processes">Processes</a>
-                    <a href="#buy" class="nav-link" data-i18n="nav.buy">Buy</a>
-                </div>
-                <button class="lang-toggle desktop-only" data-i18n="nav.lang_toggle">🌐 ES</button>
-                <div id="mobile-nav">
-                    <button id="hamburger-menu" aria-label="Menu">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="3" y1="12" x2="21" y2="12"></line>
-                            <line x1="3" y1="6" x2="21" y2="6"></line>
-                            <line x1="3" y1="18" x2="21" y2="18"></line>
-                        </svg>
-                    </button>
-                    <div id="dropdown-menu" class="dropdown-content">
-                        <a href="#hero" data-i18n="nav.monitoring">Monitoring</a>
-                        <a href="#sensors" class="nav-link" data-i18n="nav.sensors"></a>
-                        <a href="#actuators" class="nav-link" data-i18n="nav.actuators">Actuators</a>
-                        <a href="#processes" class="nav-link" data-i18n="nav.processes">Processes</a>
-                        <a href="#buy" class="nav-link" data-i18n="nav.buy">Buy</a>
-                        <button class="lang-toggle mobile-lang-btn" data-i18n="nav.lang_toggle">🌐 ES</button>
-                    </div>
-                </div>
+            
+            <div id="nav-menu" class="nav-links">
+                <a href="#hero" class="nav-link" data-i18n="nav.monitoring">Monitoring</a>
+                <a href="#sensors" class="nav-link" data-i18n="nav.sensors">Sensors</a>
+                <a href="#actuators" class="nav-link" data-i18n="nav.actuators">Actuators</a>
+                <a href="#processes" class="nav-link" data-i18n="nav.processes">Processes</a>
+                <a href="#buy" class="nav-link" data-i18n="nav.buy">Buy</a>
+                <button class="lang-toggle hide-desktop" data-i18n="nav.lang_toggle">🌐 ES</button>
+            </div>
+
+            <div class="nav-actions">
+                <button class="lang-toggle hide-mobile" data-i18n="nav.lang_toggle">🌐 ES</button>
+                <button id="hamburger-menu" class="hide-desktop" aria-label="Menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
             </div>
         </nav>
         <div id="hero">

@@ -13,3 +13,23 @@ body {
     min-height: 100vh;
     background-color: #F3F5FA;
 }
+
+.hide-mobile {
+    display: none !important;
+}
+
+@media screen and (min-width: 1024px) {
+    .hide-mobile {
+        display: revert !important;
+    }
+}
+
+.hide-desktop {
+    display: revert !important;
+}
+
+@media screen and (min-width: 1024px) {
+    .hide-desktop {
+        display: none !important;
+    }
+}
