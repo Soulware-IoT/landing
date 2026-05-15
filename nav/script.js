@@ -1,14 +1,14 @@
 export function initNav() {
     const hamburgerBtn = document.getElementById('hamburger-menu');
-    const dropdownMenu = document.getElementById('dropdown-menu');
-    if (hamburgerBtn && dropdownMenu) {
+    const navMenu = document.getElementById('nav-menu');
+    if (hamburgerBtn && navMenu) {
         hamburgerBtn.addEventListener('click', (e) => {
             e.stopPropagation();
-            dropdownMenu.classList.toggle('show');
+            navMenu.classList.toggle('show');
         });
         document.addEventListener('click', (e) => {
-            if (!dropdownMenu.contains(e.target) && e.target !== hamburgerBtn) {
-                dropdownMenu.classList.remove('show');
+            if (!navMenu.contains(e.target) && e.target !== hamburgerBtn) {
+                navMenu.classList.remove('show');
             }
         });
     }
@@ -20,7 +20,7 @@ export function initNav() {
             const target = document.querySelector(href);
             if (!target) return;
             e.preventDefault();
-            dropdownMenu?.classList.remove('show');
+            navMenu?.classList.remove('show');
             target.scrollIntoView({ behavior: 'smooth' });
         });
     });
