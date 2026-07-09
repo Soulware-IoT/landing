@@ -196,6 +196,7 @@
 
     #cta-buttons-wrapper {
         flex-direction: row;
+        flex-wrap: wrap;
         gap: 16px;
     }
 
