@@ -11,7 +11,7 @@
 
 #buy .buy-icon {
     margin-bottom: 1.5rem;
-    color: #9ca3af;
+    color: #94a3b8;
 }
 
 #buy h2 {
@@ -23,7 +23,7 @@
 
 #buy p {
     font-size: 1.125rem;
-    color: #9ca3af;
+    color: #94a3b8;
     max-width: 600px;
     margin: 0 0 3rem 0;
     line-height: 1.6;
@@ -31,7 +31,7 @@
 
 #buy .buy-button {
     background-color: #ffffff;
-    color: #111827;
+    color: #1a1a1a;
     font-weight: 700;
     font-size: 0.875rem;
     letter-spacing: 1px;

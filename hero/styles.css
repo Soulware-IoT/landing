@@ -43,14 +43,14 @@
 }
 
 .primary-button {
-    background-color: #000;
+    background-color: #0E3B63;
     color: #fff;
-    border: 1px solid #000;
+    border: 1px solid #0E3B63;
 }
 
 .secondary-button {
     background-color: #fff;
-    color: #000;
+    color: #0E3B63;
     border: 1px solid #C5C5CC;
 }
 
@@ -126,8 +126,8 @@
 }
 
 .status-item.alert {
-    background: #FCE8E8;
-    border: 1px solid #F8B4B4;
+    background: #fef2f2;
+    border: 1px solid #fecaca;
 }
 
 .item-icon {
@@ -147,13 +147,13 @@
 
 .item-label {
     font-size: 0.85rem;
-    color: #6B7280;
+    color: #64748b;
     margin-bottom: 4px;
 }
 
 .status-item.alert .item-label,
 .status-item.alert .item-value {
-    color: #C81E1E;
+    color: #dc2626;
 }
 
 .item-value {
@@ -167,14 +167,14 @@
     font-weight: 700;
     padding: 6px 14px;
     border-radius: 20px;
-    background: #E5F8ED;
-    color: #1A8245;
+    background: #ecfdf5;
+    color: #047857;
     letter-spacing: 0.5px;
 }
 
 .alert-badge {
-    background: #FAD5D7;
-    color: #C81E1E;
+    background: #fecaca;
+    color: #dc2626;
 }
 
 @media screen and (min-width: 1024px) {
