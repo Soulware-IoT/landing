@@ -16,14 +16,14 @@
 #actuators-title-container h1 {
     font-size: 2rem;
     font-weight: 700;
-    color: #111827;
+    color: #1a1a1a;
     margin: 0;
     line-height: 1.2;
 }
 
 #actuators-title-container p {
     font-size: 1.125rem;
-    color: #4b5563;
+    color: #4A4A4F;
     line-height: 1.6;
     margin: 0;
 }
@@ -35,7 +35,7 @@
 }
 
 .actuator-item {
-    border: 1px solid #e5e7eb;
+    border: 1px solid #e2e8f0;
     border-radius: 8px;
     padding: 1.5rem;
     background-color: #ffffff;
@@ -60,12 +60,12 @@
 .actuator-item h3 {
     margin: 0;
     font-size: 1.125rem;
-    color: #111827;
+    color: #1a1a1a;
 }
 
 .actuator-item p {
     margin: 0;
-    color: #4b5563;
+    color: #4A4A4F;
     font-size: 0.875rem;
     line-height: 1.5;
 }
@@ -109,13 +109,13 @@
 }
 
 .actuator-item.animating {
-    border-color: #C81E1E;
-    box-shadow: 0 0 0 2px rgba(200, 30, 30, 0.2);
+    border-color: #dc2626;
+    box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.2);
 }
 
 .actuator-item:nth-child(2).animating {
-    border-color: #1f2937;
-    box-shadow: 0 0 0 2px rgba(31, 41, 55, 0.2);
+    border-color: #0E3B63;
+    box-shadow: 0 0 0 2px rgba(14, 59, 99, 0.2);
 }
 
 @media screen and (min-width: 1024px) {
