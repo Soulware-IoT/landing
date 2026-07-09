@@ -27,6 +27,50 @@
     gap: 12px;
 }
 
+.nav-login {
+    color: #0E3B63;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.nav-login:hover {
+    background-color: #F2F5FA;
+}
+
+.nav-cta {
+    background-color: #0E3B63;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.nav-cta:hover {
+    background-color: #14507f;
+}
+
+.nav-cta-mobile {
+    background-color: #0E3B63;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 12px 24px;
+    display: block;
+    text-align: center;
+}
+
+.nav-cta-mobile:hover {
+    background-color: #14507f;
+}
+
 .nav-links {
     display: none;
     flex-direction: column;

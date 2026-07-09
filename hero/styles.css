@@ -40,6 +40,8 @@
     transition: all 0.2s ease;
     text-align: center;
     border-radius: 2px;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .primary-button {

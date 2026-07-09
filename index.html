@@ -30,10 +30,14 @@
                 <a href="#actuators" class="nav-link" data-i18n="nav.actuators">Actuators</a>
                 <a href="#processes" class="nav-link" data-i18n="nav.processes">Processes</a>
                 <a href="#buy" class="nav-link" data-i18n="nav.buy">Buy</a>
+                <a href="https://www.app.cocina360.soulware.site/login" class="nav-link hide-desktop" data-i18n="nav.login">Log In</a>
+                <a href="https://www.app.cocina360.soulware.site/register" class="nav-cta-mobile hide-desktop" data-i18n="nav.get_started">Get Started</a>
                 <button class="lang-toggle hide-desktop" data-i18n="nav.lang_toggle">🌐 ES</button>
             </div>
 
             <div class="nav-actions">
+                <a href="https://www.app.cocina360.soulware.site/login" class="nav-login hide-mobile" data-i18n="nav.login">Log In</a>
+                <a href="https://www.app.cocina360.soulware.site/register" class="nav-cta hide-mobile" data-i18n="nav.get_started">Get Started</a>
                 <button class="lang-toggle hide-mobile" data-i18n="nav.lang_toggle">🌐 ES</button>
                 <button id="hamburger-menu" class="hide-desktop" aria-label="Menu">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -52,8 +56,8 @@
                     controls and an integrated IoT network built for proactive risk management and rapid
                     incident response.</p>
                 <div id="cta-buttons-wrapper">
-                    <button class="cta-button primary-button" data-i18n="hero.btn.primary">Get Started</button>
-                    <button class="cta-button secondary-button" data-i18n="hero.btn.secondary">View Demo</button>
+                    <a href="https://www.app.cocina360.soulware.site/register" class="cta-button primary-button" data-i18n="hero.btn.primary">Get Started</a>
+                    <a href="https://www.app.cocina360.soulware.site/login" class="cta-button secondary-button" data-i18n="hero.btn.secondary">Log In</a>
                 </div>
             </div>
             <div id="hero-image">
@@ -301,16 +305,39 @@
             </div>
         </div>
         <div id="buy">
-            <div class="buy-icon">
-                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                </svg>
+            <div id="buy-header">
+                <h2 data-i18n="buy.title">Choose Your Plan.</h2>
+                <p data-i18n="buy.desc">Start monitoring your kitchen today. Upgrade anytime as your operation
+                    grows.</p>
             </div>
-            <h2 data-i18n="buy.title">Secure Your Kitchen Today.</h2>
-            <p data-i18n="buy.desc">Deploy industrial-grade vigilance. Contact our engineering team to design a custom
-                sensor topology for your facility.</p>
-            <button class="buy-button" disabled data-i18n="buy.button">Product Not Available Yet</button>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3 data-i18n="buy.free.name">Free</h3>
+                    <div class="price"><span class="amount">$0</span></div>
+                    <p class="pricing-feature" data-i18n="buy.free.devices">Up to 3 devices</p>
+                    <a href="https://www.app.cocina360.soulware.site/register" class="pricing-button"
+                        data-i18n="buy.free.cta">Start Free</a>
+                </div>
+                <div class="pricing-card featured">
+                    <span class="pricing-badge" data-i18n="buy.basic.badge">Most Popular</span>
+                    <h3 data-i18n="buy.basic.name">Basic</h3>
+                    <div class="price"><span class="amount">$5</span><span class="period"
+                            data-i18n="buy.per_month">/mo</span></div>
+                    <p class="pricing-feature" data-i18n="buy.basic.devices">Up to 10 devices</p>
+                    <a href="https://www.app.cocina360.soulware.site/register" class="pricing-button"
+                        data-i18n="buy.basic.cta">Get Basic</a>
+                </div>
+                <div class="pricing-card">
+                    <h3 data-i18n="buy.pro.name">Professional</h3>
+                    <div class="price"><span class="amount">$15</span><span class="period"
+                            data-i18n="buy.per_month">/mo</span></div>
+                    <p class="pricing-feature" data-i18n="buy.pro.devices">Unlimited devices</p>
+                    <a href="https://www.app.cocina360.soulware.site/register" class="pricing-button"
+                        data-i18n="buy.pro.cta">Get Professional</a>
+                </div>
+            </div>
+            <p class="buy-login-hint" data-i18n-html="buy.login_hint">Already have an account? <a
+                    href="https://www.app.cocina360.soulware.site/login" class="buy-login-link">Log in</a></p>
         </div>
         <footer>
             <div class="footer-col">

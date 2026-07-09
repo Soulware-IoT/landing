@@ -9,9 +9,12 @@
     padding: 6rem 5%;
 }
 
-#buy .buy-icon {
-    margin-bottom: 1.5rem;
+#buy-header p {
+    font-size: 1.125rem;
     color: #94a3b8;
+    max-width: 600px;
+    margin: 0 auto 3rem;
+    line-height: 1.6;
 }
 
 #buy h2 {
@@ -21,26 +24,103 @@
     color: #ffffff;
 }
 
-#buy p {
-    font-size: 1.125rem;
-    color: #94a3b8;
-    max-width: 600px;
-    margin: 0 0 3rem 0;
-    line-height: 1.6;
+.pricing-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 400px;
 }
 
-#buy .buy-button {
+.pricing-card {
+    position: relative;
     background-color: #ffffff;
     color: #1a1a1a;
+    border-radius: 12px;
+    padding: 2rem 1.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    text-align: center;
+}
+
+.pricing-card.featured {
+    border: 2px solid #ffffff;
+}
+
+.pricing-badge {
+    position: absolute;
+    top: -12px;
+    background-color: #0E3B63;
+    color: #ffffff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 20px;
+}
+
+.pricing-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0.5rem 0 0;
+    color: #1a1a1a;
+}
+
+.price {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+}
+
+.price .amount {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0E3B63;
+}
+
+.price .period {
+    font-size: 1rem;
+    color: #4A4A4F;
+}
+
+.pricing-feature {
+    font-size: 0.95rem;
+    color: #4A4A4F;
+    margin: 0 0 0.5rem;
+}
+
+.pricing-button {
+    width: 100%;
+    background-color: #0E3B63;
+    color: #ffffff;
     font-weight: 700;
     font-size: 0.875rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
-    padding: 1rem 2rem;
+    padding: 0.9rem 1.5rem;
     border: none;
     border-radius: 2px;
-    cursor: not-allowed;
-    opacity: 0.8;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.pricing-button:hover {
+    background-color: #14507f;
+}
+
+.buy-login-hint {
+    margin: 2.5rem 0 0;
+    font-size: 0.95rem;
+    color: #94a3b8;
+}
+
+.buy-login-link {
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 @media screen and (min-width: 1024px) {
@@ -52,7 +132,17 @@
         font-size: 3rem;
     }
 
-    #buy p {
+    #buy-header p {
         font-size: 1.25rem;
+    }
+
+    .pricing-grid {
+        flex-direction: row;
+        max-width: 900px;
+        align-items: stretch;
+    }
+
+    .pricing-card {
+        flex: 1;
     }
 }
