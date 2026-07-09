@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #1a1a24;
+    color: #0E3B63;
     font-weight: 700;
     font-size: 20px;
     gap: 12px;
@@ -25,6 +25,50 @@
     display: flex;
     align-items: center;
     gap: 12px;
+}
+
+.nav-login {
+    color: #0E3B63;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.nav-login:hover {
+    background-color: #F2F5FA;
+}
+
+.nav-cta {
+    background-color: #0E3B63;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.nav-cta:hover {
+    background-color: #14507f;
+}
+
+.nav-cta-mobile {
+    background-color: #0E3B63;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 12px 24px;
+    display: block;
+    text-align: center;
+}
+
+.nav-cta-mobile:hover {
+    background-color: #14507f;
 }
 
 .nav-links {
@@ -48,7 +92,7 @@
 }
 
 .nav-links .nav-link {
-    color: #1a1a24;
+    color: #0E3B63;
     padding: 12px 24px;
     text-decoration: none;
     display: block;
@@ -76,12 +120,12 @@
 
 .lang-toggle:hover {
     background-color: #f8f9fa;
-    color: #1a1a24;
+    color: #0E3B63;
     border-color: #cbd5e1;
 }
 
 #hamburger-menu {
-    background: #000;
+    background: #0E3B63;
     color: #fff;
     border: none;
     width: 40px;
@@ -94,7 +138,7 @@
 }
 
 #hamburger-menu:hover {
-    background: #333;
+    background: #14507f;
 }
 
 @media screen and (min-width: 1024px) {
@@ -120,12 +164,12 @@
 
     .nav-links .nav-link:hover {
         background: transparent;
-        color: #1a1a24;
+        color: #0E3B63;
     }
 
     .nav-links .nav-link.active {
-        color: #1a1a24;
+        color: #0E3B63;
         font-weight: 600;
-        border-bottom-color: #1a1a24;
+        border-bottom-color: #0E3B63;
     }
 }

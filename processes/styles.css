@@ -5,7 +5,7 @@
     gap: 2rem;
     padding: 4rem 5%;
     min-height: 100vh;
-    background-color: #f9fafb;
+    background-color: #f8fafc;
 }
 
 #processes-title-container {
@@ -18,13 +18,13 @@
 #processes-title-container h1 {
     font-size: 2rem;
     font-weight: 700;
-    color: #111827;
+    color: #1a1a1a;
     margin: 0;
 }
 
 #processes-title-container p {
     font-size: 1.125rem;
-    color: #4b5563;
+    color: #4A4A4F;
     margin: 0 auto;
     max-width: 600px;
     line-height: 1.6;
@@ -39,7 +39,7 @@
 
 .process-step {
     background: #ffffff;
-    border: 1px solid #e5e7eb;
+    border: 1px solid #e2e8f0;
     border-radius: 12px;
     padding: 1.5rem;
     display: flex;
@@ -58,7 +58,7 @@
     flex-shrink: 0;
     width: 48px;
     height: 48px;
-    background: #000000;
+    background: #0E3B63;
     color: #ffffff;
     border-radius: 50%;
     display: flex;
@@ -75,12 +75,12 @@
 .step-content h3 {
     margin: 0;
     font-size: 1.25rem;
-    color: #111827;
+    color: #1a1a1a;
 }
 
 .step-content p {
     margin: 0;
-    color: #4b5563;
+    color: #4A4A4F;
     line-height: 1.5;
 }
 
@@ -115,7 +115,7 @@
         right: -2rem; /* Cover the grid gap */
         width: 2rem;
         height: 2px;
-        background-color: #e5e7eb;
+        background-color: #e2e8f0;
         z-index: 0;
     }
 }

@@ -27,14 +27,14 @@
 .half-section>div:first-of-type h1 {
     font-size: 2rem;
     font-weight: 700;
-    color: #111827;
+    color: #1a1a1a;
     margin: 0;
     line-height: 1.2;
 }
 
 .half-section>div:first-of-type p {
     font-size: 1.125rem;
-    color: #4b5563;
+    color: #4A4A4F;
     line-height: 1.6;
     margin: 0;
 }
@@ -53,7 +53,7 @@
 }
 
 .feature-card {
-    border: 1px solid #e5e7eb;
+    border: 1px solid #e2e8f0;
     border-radius: 8px;
     padding: 1.5rem;
     background-color: #ffffff;
@@ -71,12 +71,12 @@
 .feature-card h3 {
     margin: 0;
     font-size: 1.125rem;
-    color: #111827;
+    color: #1a1a1a;
 }
 
 .feature-card p {
     margin: 0;
-    color: #4b5563;
+    color: #4A4A4F;
     font-size: 0.875rem;
     line-height: 1.5;
 }
